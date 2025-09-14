@@ -1,0 +1,70 @@
+.heading {
+    text-align: center;
+    background-color: #1613df;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .navbar {
+    background-color: #1613df;
+    color: white;
+    display: flex;
+    justify-content: center; 
+    justify-content: space-between; /* Align items to the start and end of the navbar */
+    align-items: center;
+    padding: 10px;
+    width: 100%; /* Set the width to 90% of the parent container */
+    margin: 0 auto; /* Center the navbar horizontally */
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .logout-button {
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: calc(100% - 40px); /* Adjust this value to move the button up or down */
+    right: 10px;
+  }
+  
+  .btn:active {
+    transform: translateY(2px); /* Move the button 2px down when clicked */
+  }
+  .user-profile {
+    position: relative;
+  }
+  
+  .profile-link {
+    text-decoration: none;
+  }
+  
+  .profile-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  
+  

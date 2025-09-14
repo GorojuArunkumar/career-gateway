@@ -1,0 +1,385 @@
+
+
+/* stylesp.css */
+/* .
+/* stylesp.css */
+.sa{
+  display:flex;
+}
+.registration-container{
+  display:block;
+}
+input{
+  display:block;
+}
+
+.navbar {
+  background-color: #1613df;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 15px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+.logout-button button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logout-button button:hover {
+  background-color: #d32f2f;
+}
+
+.footer p {
+    margin: 0;
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+/* styles.css */
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.invalid-feedback {
+  color: red;
+}
+.card {
+  max-width: 400px; /* Set the maximum width of the card */
+  margin: auto; /* Center the card horizontally */
+  padding: 20px; /* Add padding inside the card */
+}
+/* Use -webkit-text-size-adjust */
+body {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* Use -webkit-mask properties */
+
+
+/* Use text-align: match-parent */
+.parent {
+  text-align: match-parent;
+}
+
+/* Use -webkit-overflow-scrolling */
+.scrollable {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Use -webkit-tap-highlight-color */
+.button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Use meta them
+
+/* Avoid changing visibility frequently */
+.animated {
+  visibility: hidden;
+}
+
+/* Ensure text-align:inherit is listed after text-align:-webkit-match-parent */
+.element {
+  text-align: -webkit-match-parent;
+  text-align: inherit;
+}
+/* Add -webkit- prefix for mask properties */
+.masked-element {
+  
+}
+@keyframes example {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Add -webkit- prefix for text-size-adjust */
+.adjust-text {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* Add -webkit- prefix for overflow-scrolling */
+.scroll-container {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Use match-parent instead of -webkit-match-parent */
+.text-parent {
+  text-align: match-parent;
+}
+
+/* Avoid changing visibility within keyframes for performance */
+@keyframes example {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.registration-container{
+  display: flex;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  margin-top: 0;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+/* loginRegistration.css */
+/* Login box */
+/* Styles for the login container */
+.login-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background-position: center;
+  background-color: rgb(241, 240, 224); /* Set background color to transparent */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Styles for the registration container */
+
+
+/* CSS */
+.login-container {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center; /* Center the content horizontally */
+}
+
+.login-form {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.login-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Adjust the object-fit property to your needs */
+  border-radius: 5px;
+}
+
+
+h2 {
+  margin-top: 0;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  margin-top: 0;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+/* authPage.css */
+/* styles.css */
+
+/* Container styles */
+.container {
+  max-width: 100px; /* Decrease the max-width to 300px */
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.arr{
+width: 400px;
+}
+h2 {
+  margin-top: 0;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+  display: block;
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #3471cc;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0e5eb4;
+}
+
+p {
+  margin-top: 0;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.logout-button button {
+  background-color: #f44336; /* Fill the background color */
+  color: white; /* Text color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%; /* Make the button fill the entire width */
+  padding: 6px 0; /* Remove padding */
+}
+
+.logout-button button:hover {
+  background-color: #d32f2f; /* Change color on hover */
+}
+
+.reg-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.reg-container input {
+  width: calc(100% - 16px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1000%;
+ margin-left: auto;
+ margin-right: auto;
+  color: white;
+  padding: 10px 20px;
+  z-index: 1000; /* Ensure it appears above other content */
+}
